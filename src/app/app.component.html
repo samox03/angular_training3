@@ -1,9 +1,21 @@
 
-<!--As the following linkage leads to a full refreshing of the page the version below is choosen-->
-<!--<a href="/elements">Elements</a>
-<a href="/collections">Collections</a>-->
-<a routerLink="/elements">Elements</a>
-<a routerLink="/collections">Collections</a>
-<app-mods-home></app-mods-home>
-<router-outlet></router-outlet>
+<div class="ui container">
+  <div class="ui socondary pointing menu">
+    <!--As the following linkage leads to a full refreshing of the page the version below is choosen-->
+    <!--<a href="/elements">Elements</a>
+    <a href="/collections">Collections</a>-->
+    <a routerLink="/elements" class="item">Elements</a>
+    <a routerLink="/collections" class="item">Collections</a>
+    <a routerLink="/mods" class="item">Mods</a>
+  </div>
+  <div class="ui segment">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+
+
+
+
 
