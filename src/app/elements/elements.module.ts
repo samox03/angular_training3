@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ElementsRoutingModule } from './elements-routing.module';
-import { ElementHomeComponent } from './elements-home/element-home.component';
+import { ElementsHomeComponent } from './elements-home/elements-home.component';
 
 
 @NgModule({
   declarations: [
-    ElementHomeComponent
+    ElementsHomeComponent
   ],
   exports: [
-    ElementHomeComponent
+    ElementsHomeComponent
   ],
   imports: [
     CommonModule,
