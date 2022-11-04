@@ -9,9 +9,6 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
   declarations: [
     ElementsHomeComponent
   ],
-  exports: [
-    ElementsHomeComponent
-  ],
   imports: [
     CommonModule,
     ElementsRoutingModule
