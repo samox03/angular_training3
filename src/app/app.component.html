@@ -4,9 +4,10 @@
     <!--As the following linkage leads to a full refreshing of the page the version below is choosen-->
     <!--<a href="/elements">Elements</a>
     <a href="/collections">Collections</a>-->
-    <a routerLink="/elements" class="item">Elements</a>
-    <a routerLink="/collections" class="item">Collections</a>
-    <a routerLink="/mods" class="item">Mods</a>
+    <!--routerLinkActive -> doesnt need to have classname active, just semanticUI uses that name -->
+    <a routerLink="/elements" routerLinkActive="active" class="item">Elements</a>
+    <a routerLink="/collections" routerLinkActive="active" class="item">Collections</a>
+    <a routerLink="/mods" routerLinkActive="active" class="item">Mods</a>
   </div>
   <div class="ui segment">
     <router-outlet></router-outlet>
