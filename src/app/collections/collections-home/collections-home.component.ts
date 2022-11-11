@@ -13,6 +13,7 @@ export class CollectionsHomeComponent implements OnInit {
     {name: 'Aiyesh', age: 28, job: 'Engineer', employed: false}
   ];
   headers: {key: string, label: string}[] = [
+    { key: 'employed', label: 'Has a Job?'},
     { key: 'name', label: 'Name'},
     { key: 'age', label: 'Age'},
     { key: 'job', label: 'Job'}
